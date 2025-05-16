@@ -45,9 +45,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 208.72998046875,
+											"left": 208.45703125,
 											"top": 141,
-											"width": 42.63720703125,
+											"width": 42.5419921875,
 											"height": 13,
 											"text": "SignUp"
 										},
@@ -61,7 +61,7 @@
 											"parentStyle": true,
 											"left": 189,
 											"top": 141,
-											"width": 13.72998046875,
+											"width": 13.45703125,
 											"height": 13,
 											"text": "sd"
 										}
@@ -4851,56 +4851,11 @@
 					]
 				},
 				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAGW2VeVCN7bc5Q=",
-					"_parent": {
-						"$ref": "AAAAAAGW2MxMrM+S6o0="
-					},
-					"name": "SignUpUI",
-					"stereotype": "boundary"
-				},
-				{
 					"_type": "UMLActor",
 					"_id": "AAAAAAGW2QcPfNU4/Yw=",
 					"_parent": {
 						"$ref": "AAAAAAGW2MxMrM+S6o0="
 					}
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAGW2hYs/2PRAOo=",
-					"_parent": {
-						"$ref": "AAAAAAGW2MxMrM+S6o0="
-					},
-					"name": "MemberDB",
-					"stereotype": "control"
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAGW2hdRHGP6wCM=",
-					"_parent": {
-						"$ref": "AAAAAAGW2MxMrM+S6o0="
-					},
-					"name": "Member",
-					"stereotype": "entity"
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAGW2hla3GRJV1E=",
-					"_parent": {
-						"$ref": "AAAAAAGW2MxMrM+S6o0="
-					},
-					"name": "Message",
-					"stereotype": "entity"
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAGW2hv9CWS8oKo=",
-					"_parent": {
-						"$ref": "AAAAAAGW2MxMrM+S6o0="
-					},
-					"name": "MsgController",
-					"stereotype": "control"
 				},
 				{
 					"_type": "UMLClass",
@@ -4913,39 +4868,12 @@
 				},
 				{
 					"_type": "UMLClass",
-					"_id": "AAAAAAGW2kwYqc/lFYw=",
+					"_id": "AAAAAAGW2VeVCN7bc5Q=",
 					"_parent": {
 						"$ref": "AAAAAAGW2MxMrM+S6o0="
 					},
-					"name": "LogInUI",
+					"name": "SignUpUI",
 					"stereotype": "boundary"
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAGW2kx6P8/q/Vk=",
-					"_parent": {
-						"$ref": "AAAAAAGW2MxMrM+S6o0="
-					},
-					"name": "LogInController",
-					"stereotype": "controller"
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAGW2kzdHs/vSQs=",
-					"_parent": {
-						"$ref": "AAAAAAGW2MxMrM+S6o0="
-					},
-					"name": "ConnectController",
-					"stereotype": "controller"
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAGW2k6uIM/0Z4M=",
-					"_parent": {
-						"$ref": "AAAAAAGW2MxMrM+S6o0="
-					},
-					"name": "ListConnectedMember",
-					"stereotype": "controller"
 				}
 			],
 			"attributes": [
@@ -6652,7 +6580,7 @@
 									"parentStyle": true,
 									"left": 600.5,
 									"top": 269,
-									"width": 79,
+									"width": 79.5703125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGW2cuyO09p+Hw="
@@ -6862,7 +6790,7 @@
 									"parentStyle": true,
 									"left": 620.5,
 									"top": 333,
-									"width": 135,
+									"width": 136.140625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGW2cvHHk+XvAg="
@@ -7492,7 +7420,7 @@
 									"parentStyle": true,
 									"left": 536.5,
 									"top": 605,
-									"width": 79,
+									"width": 79.5703125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGW2cwUrlAjB1c="
@@ -9616,65 +9544,11 @@
 			"name": "LogIn",
 			"ownedElements": [
 				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAGW2nnG9DX55jU=",
-					"_parent": {
-						"$ref": "AAAAAAGW2nnG8jUdRAs="
-					},
-					"name": "SignUpUI",
-					"stereotype": "boundary"
-				},
-				{
 					"_type": "UMLActor",
 					"_id": "AAAAAAGW2nnG9DX6ydQ=",
 					"_parent": {
 						"$ref": "AAAAAAGW2nnG8jUdRAs="
 					}
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAGW2nnG9DX7ykU=",
-					"_parent": {
-						"$ref": "AAAAAAGW2nnG8jUdRAs="
-					},
-					"name": "MemberDB",
-					"stereotype": "control"
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAGW2nnG9DX8k9k=",
-					"_parent": {
-						"$ref": "AAAAAAGW2nnG8jUdRAs="
-					},
-					"name": "Member",
-					"stereotype": "entity"
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAGW2nnG9DX9f7k=",
-					"_parent": {
-						"$ref": "AAAAAAGW2nnG8jUdRAs="
-					},
-					"name": "Message",
-					"stereotype": "entity"
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAGW2nnG9DX+jCk=",
-					"_parent": {
-						"$ref": "AAAAAAGW2nnG8jUdRAs="
-					},
-					"name": "MsgController",
-					"stereotype": "control"
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAGW2nnG9DX/1tE=",
-					"_parent": {
-						"$ref": "AAAAAAGW2nnG8jUdRAs="
-					},
-					"name": "SignUpController",
-					"stereotype": "controller"
 				},
 				{
 					"_type": "UMLInteraction",
@@ -13267,9 +13141,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 604.11279296875,
+											"left": 603.18603515625,
 											"top": 383.5,
-											"width": 117.7744140625,
+											"width": 119.6279296875,
 											"height": 13,
 											"alpha": 1.5707960042142515,
 											"distance": 31,
@@ -14600,9 +14474,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 905.531494140625,
+											"left": 904.852294921875,
 											"top": 260.5,
-											"width": 192.93701171875,
+											"width": 194.29541015625,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -14933,9 +14807,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 921.48095703125,
+											"left": 921.344482421875,
 											"top": 399.5,
-											"width": 117.0380859375,
+											"width": 117.31103515625,
 											"height": 13,
 											"alpha": 1.57079566012823,
 											"distance": 15,
@@ -16305,24 +16179,6 @@
 					},
 					"name": "LogInController",
 					"stereotype": "controller"
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAGW2nnG9TcsC2E=",
-					"_parent": {
-						"$ref": "AAAAAAGW2nnG8jUdRAs="
-					},
-					"name": "ConnectController",
-					"stereotype": "controller"
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAGW2nnG9Tct/0k=",
-					"_parent": {
-						"$ref": "AAAAAAGW2nnG8jUdRAs="
-					},
-					"name": "ListConnectedMember",
-					"stereotype": "controller"
 				}
 			],
 			"attributes": [
@@ -16924,6 +16780,60 @@
 					}
 				}
 			]
+		},
+		{
+			"_type": "UMLClass",
+			"_id": "AAAAAAGW2hv9CWS8oKo=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "MsgController",
+			"stereotype": "control"
+		},
+		{
+			"_type": "UMLClass",
+			"_id": "AAAAAAGW2hla3GRJV1E=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Message",
+			"stereotype": "entity"
+		},
+		{
+			"_type": "UMLClass",
+			"_id": "AAAAAAGW2hdRHGP6wCM=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Member",
+			"stereotype": "entity"
+		},
+		{
+			"_type": "UMLClass",
+			"_id": "AAAAAAGW2hYs/2PRAOo=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "MemberDB",
+			"stereotype": "control"
+		},
+		{
+			"_type": "UMLClass",
+			"_id": "AAAAAAGW2kzdHs/vSQs=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "ConnectController",
+			"stereotype": "controller"
+		},
+		{
+			"_type": "UMLClass",
+			"_id": "AAAAAAGW2k6uIM/0Z4M=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "ListConnectedMember",
+			"stereotype": "controller"
 		}
 	]
 }
