@@ -1,0 +1,427 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAGW2MxMrM+S6o0=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "SignUp",
+			"ownedElements": [
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW2h6B9W3GhBQ=",
+					"_parent": {
+						"$ref": "AAAAAAGW2MxMrM+S6o0="
+					},
+					"name": "SignUpController",
+					"stereotype": "control"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW2VeVCN7bc5Q=",
+					"_parent": {
+						"$ref": "AAAAAAGW2MxMrM+S6o0="
+					},
+					"name": "SignUpUI",
+					"stereotype": "boundary"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW2tZ7QSUsAkQ=",
+					"_parent": {
+						"$ref": "AAAAAAGW2MxMrM+S6o0="
+					},
+					"name": "SignUpMessage",
+					"stereotype": "entity"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW2tkwh6Dn43Q=",
+					"_parent": {
+						"$ref": "AAAAAAGW2MxMrM+S6o0="
+					},
+					"name": "SignUpMsgGenerator",
+					"stereotype": "control"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW3WH2gBVh57I=",
+					"_parent": {
+						"$ref": "AAAAAAGW2MxMrM+S6o0="
+					},
+					"name": "MemberAdder",
+					"stereotype": "control"
+				}
+			]
+		},
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAGW2nnG8jUdRAs=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "LogIn",
+			"ownedElements": [
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW2nnG9TcqvOI=",
+					"_parent": {
+						"$ref": "AAAAAAGW2nnG8jUdRAs="
+					},
+					"name": "LogInUI",
+					"stereotype": "boundary"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW2nnG9Tcrn9c=",
+					"_parent": {
+						"$ref": "AAAAAAGW2nnG8jUdRAs="
+					},
+					"name": "LogInController",
+					"stereotype": "control"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW2ttVEfw1V/0=",
+					"_parent": {
+						"$ref": "AAAAAAGW2nnG8jUdRAs="
+					},
+					"name": "LogInMsgGenerator",
+					"stereotype": "control"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW2tuPWf0RZEY=",
+					"_parent": {
+						"$ref": "AAAAAAGW2nnG8jUdRAs="
+					},
+					"name": "LogInMessage",
+					"stereotype": "entity"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW3Wtx3JQKPbc=",
+					"_parent": {
+						"$ref": "AAAAAAGW2nnG8jUdRAs="
+					},
+					"name": "MemberChecker",
+					"stereotype": "control"
+				}
+			]
+		},
+		{
+			"_type": "UMLClass",
+			"_id": "AAAAAAGW2hdRHGP6wCM=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Member",
+			"stereotype": "entity"
+		},
+		{
+			"_type": "UMLClass",
+			"_id": "AAAAAAGW2hYs/2PRAOo=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "MemberDB",
+			"stereotype": "control"
+		},
+		{
+			"_type": "UMLClass",
+			"_id": "AAAAAAGW2kzdHs/vSQs=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "ConnectManager",
+			"stereotype": "control"
+		},
+		{
+			"_type": "UMLClass",
+			"_id": "AAAAAAGW2k6uIM/0Z4M=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "ConnectedMemberList",
+			"stereotype": "entity"
+		},
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAGW3Xol8+E3/2c=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "LogOut",
+			"ownedElements": [
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW3Xol9eKS+ys=",
+					"_parent": {
+						"$ref": "AAAAAAGW3Xol8+E3/2c="
+					},
+					"name": "LogOutUI",
+					"stereotype": "boundary"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW3Xol9eKTJto=",
+					"_parent": {
+						"$ref": "AAAAAAGW3Xol8+E3/2c="
+					},
+					"name": "LogOutController",
+					"stereotype": "control"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW3Xol9eKURuo=",
+					"_parent": {
+						"$ref": "AAAAAAGW3Xol8+E3/2c="
+					},
+					"name": "LogOutMsgGenerator",
+					"stereotype": "control"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW3Xol9eKVsRA=",
+					"_parent": {
+						"$ref": "AAAAAAGW3Xol8+E3/2c="
+					},
+					"name": "LogOutMessage",
+					"stereotype": "entity"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW3Xol9eKW0/M=",
+					"_parent": {
+						"$ref": "AAAAAAGW3Xol8+E3/2c="
+					},
+					"name": "CheckMemberController",
+					"stereotype": "control"
+				}
+			]
+		},
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAGW2sJ5Db/uc8E=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "RegistBicycle",
+			"ownedElements": [
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW2sJ5D8DLamo=",
+					"_parent": {
+						"$ref": "AAAAAAGW2sJ5Db/uc8E="
+					},
+					"name": "RegistBicycleController",
+					"stereotype": "control"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW2sJ5D8DMv9Y=",
+					"_parent": {
+						"$ref": "AAAAAAGW2sJ5Db/uc8E="
+					},
+					"name": "RegistBicycleUI",
+					"stereotype": "boundary"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW2t2eVBFudA8=",
+					"_parent": {
+						"$ref": "AAAAAAGW2sJ5Db/uc8E="
+					},
+					"name": "RegistMsgGenerator",
+					"stereotype": "control"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW2t3jihIObh4=",
+					"_parent": {
+						"$ref": "AAAAAAGW2sJ5Db/uc8E="
+					},
+					"name": "RegistMessage",
+					"stereotype": "entity"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW3ZG/6HKZ3rs=",
+					"_parent": {
+						"$ref": "AAAAAAGW2sJ5Db/uc8E="
+					},
+					"name": "BicycleResister",
+					"stereotype": "control"
+				}
+			]
+		},
+		{
+			"_type": "UMLClass",
+			"_id": "AAAAAAGW2sbFktddEAY=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Bicycle",
+			"stereotype": "entity"
+		},
+		{
+			"_type": "UMLClass",
+			"_id": "AAAAAAGW2scOT9hMUdE=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "BicycleDB",
+			"stereotype": "controller"
+		},
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAGW2uBs+yPlaFY=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "ViewRentalData",
+			"ownedElements": [
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW2uBs/iTCcE4=",
+					"_parent": {
+						"$ref": "AAAAAAGW2uBs+yPlaFY="
+					},
+					"name": "ViewRentalDataController",
+					"stereotype": "control"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW2uBs/iTD8aM=",
+					"_parent": {
+						"$ref": "AAAAAAGW2uBs+yPlaFY="
+					},
+					"name": "ViewRentalDataUI",
+					"stereotype": "boundary"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW2uBs/iTE8sw=",
+					"_parent": {
+						"$ref": "AAAAAAGW2uBs+yPlaFY="
+					},
+					"name": "RentalDataMsgGenerator",
+					"stereotype": "control"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW2uBs/iTFGAI=",
+					"_parent": {
+						"$ref": "AAAAAAGW2uBs+yPlaFY="
+					},
+					"name": "RantalDataMessage",
+					"stereotype": "entity"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW3Z42AIjkX2M=",
+					"_parent": {
+						"$ref": "AAAAAAGW2uBs+yPlaFY="
+					},
+					"name": "RentalDataGetter",
+					"stereotype": "control"
+				}
+			]
+		},
+		{
+			"_type": "UMLClass",
+			"_id": "AAAAAAGW2uQ4Pzh1XQk=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "RentalDB",
+			"stereotype": "control"
+		},
+		{
+			"_type": "UMLClass",
+			"_id": "AAAAAAGW2uTeQTlk3Ac=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "RentalData",
+			"stereotype": "entity"
+		},
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAGW2vwMIdMa+1o=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Rent",
+			"ownedElements": [
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW3aqsBJ4J0bQ=",
+					"_parent": {
+						"$ref": "AAAAAAGW2vwMIdMa+1o="
+					},
+					"name": "RentUI",
+					"stereotype": "boundary"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW3ar2ip7ghx0=",
+					"_parent": {
+						"$ref": "AAAAAAGW2vwMIdMa+1o="
+					},
+					"name": "RentControl",
+					"stereotype": "control"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW3as0sZ+ZJ8A=",
+					"_parent": {
+						"$ref": "AAAAAAGW2vwMIdMa+1o="
+					},
+					"name": "BicycleFinder",
+					"stereotype": "control"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW3auFJqBSHCk=",
+					"_parent": {
+						"$ref": "AAAAAAGW2vwMIdMa+1o="
+					},
+					"name": "RentDataAdder",
+					"stereotype": "control"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW3axEn6ELG8Q=",
+					"_parent": {
+						"$ref": "AAAAAAGW2vwMIdMa+1o="
+					},
+					"name": "RentMsgGenerator",
+					"stereotype": "control"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGW3a62CLJTH/o=",
+					"_parent": {
+						"$ref": "AAAAAAGW2vwMIdMa+1o="
+					},
+					"name": "RentMessage",
+					"stereotype": "entity"
+				}
+			]
+		},
+		{
+			"_type": "UMLClass",
+			"_id": "AAAAAAGW3jCJc/UR68w=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "SessionChecker",
+			"stereotype": "control"
+		}
+	]
+}
