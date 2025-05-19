@@ -1295,7 +1295,7 @@
 					}
 				}
 			],
-			"stereotype": "controller",
+			"stereotype": "entity",
 			"attributes": [
 				{
 					"_type": "UMLAttribute",
@@ -1673,7 +1673,7 @@
 					}
 				}
 			],
-			"stereotype": "control",
+			"stereotype": "entity",
 			"attributes": [
 				{
 					"_type": "UMLAttribute",
@@ -8311,7 +8311,7 @@
 											"top": 709,
 											"width": 123.4716796875,
 											"height": 13,
-											"text": "«controller»"
+											"text": "«entity»"
 										},
 										{
 											"_type": "LabelView",
@@ -10649,7 +10649,7 @@
 											"top": 709,
 											"width": 158.8662109375,
 											"height": 13,
-											"text": "«control»"
+											"text": "«entity»"
 										},
 										{
 											"_type": "LabelView",
