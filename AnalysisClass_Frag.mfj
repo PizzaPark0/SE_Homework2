@@ -706,7 +706,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "ConnectedMemberList",
+			"name": "ConnectedMemberDB",
 			"ownedElements": [
 				{
 					"_type": "UMLAssociation",
@@ -2118,7 +2118,7 @@
 											"top": 724,
 											"width": 171.1552734375,
 											"height": 13,
-											"text": "ConnectedMemberList"
+											"text": "ConnectedMemberDB"
 										},
 										{
 											"_type": "LabelView",
